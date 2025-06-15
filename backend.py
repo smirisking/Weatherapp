@@ -12,4 +12,4 @@ def get_data(place, days, kind=None):
     return filtered_data
 
 if __name__=="__main__":
-    print(get_data(place="Tokyo", days=3, kind="Temperature"))
+    print(get_data(place="Tokyo", days=5, kind="Temperature"))
